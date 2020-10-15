@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility */
+.bg_blue{
+  background: #0c325a;
+}
+.bg_green{
+  background: #7cbb02;
+}
+.bg_grey{
+  background: #d3d3d3;
+}
+/* /utility */
+
+#site_header{
+  height: 550px;
+}
+#main_content{
+  height: 1000px;
+}
+#site_footer{
+  height: 150px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
