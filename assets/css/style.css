@@ -154,7 +154,7 @@ body{
 }
 
 /* immagini */
-img{
+.row_center > img{
   margin-bottom: 20px;
 }
 img.profile{
@@ -168,30 +168,64 @@ img.doc{
 }
 /* /immagini */
 
-.col_text{
+.col_4 > .col_text{
   width: 80%;
   margin: auto;
   line-height: 1.5;
 }
-.col_text h2{
+.col_4 > .col_text h2{
   font-size: 23px;
   font-weight: 500;
   color: #7cbb02;
 }
-.col_text p{
+.col_4 > .col_text p{
   font-weight: 400;
   color: grey;
   font-size: 16.5px;
 }
 
-hr{
-  width: 80px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+.hr_top_row{
+  width: 20%;
+  margin: 20px 40%;
 }
 
-.divisorio{
-  width: 99%;
+.hr_bottom_row{
+  margin: 1%;
   border-style: inset;
 }
+
+.col_6{
+  width: 50%;
+}
+.col_6::after{
+  content:"";
+  display: table;
+  clear:
+}
+
+img.mountain{
+  width: 75%;
+  text-align: center;
+  padding: 24px;
+}
+
+.col_6 > .col_text{
+  width: 70%;
+  margin-left: 20px;
+}
+.col_6 h2{
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.col_6 p{
+  font-weight: 400;
+  color: grey;
+  font-size: 19px;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+.col_6 a{
+  color: #5586bc;
+}
+/* /main */
