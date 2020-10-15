@@ -207,11 +207,12 @@ img.mountain{
   width: 75%;
   text-align: center;
   padding: 24px;
+  margin-left: 80px;
 }
 
 .col_6 > .col_text{
   width: 70%;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .col_6 h2{
   font-size: 34px;
@@ -229,3 +230,39 @@ img.mountain{
   color: #5586bc;
 }
 /* /main */
+
+/* footer */
+.footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col_left, .col_right{
+  width: 50%
+}
+.col_left h2{
+  line-height: 150px;
+  font-weight: 400;
+  font-size: 38px;
+}
+.col_right{
+  line-height: 150px;
+  text-align: right;
+  font-size: 20px;
+}
+label{
+  color: grey;
+}
+select{
+  margin: 25px;
+}
+
+
+
+
+
+
+
+
+/* /footer */
