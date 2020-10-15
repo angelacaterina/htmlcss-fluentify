@@ -22,14 +22,8 @@ body{
 .float_left{
   float: left;
 }
-.btn{
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 6px;
-  /* padding: 20px 10px; */
-}
 /* /utility */
+
 /* struttura */
 #site_header{
   height: 550px;
@@ -47,7 +41,7 @@ body{
   margin: auto;
 }
 
- /* navbar */
+ /* .navbar */
 .navbar::after{
   content: "";
   display: table;
@@ -83,10 +77,47 @@ body{
   width: 35%;
   text-align: right;
 }
-
+/* bottom */
 .btn_small{
   border: 1px solid white;
   border-radius: 6px;
   /* padding: 10px 20px!important; */
   margin-right: 20px;
+}
+.b_radius{
+  border-radius: 6px;
+}
+/* /bottom */
+/* /.navbar */
+
+/* sezione hero */
+.hero_container{
+  background-image: url('../img/banner_header.png');
+  background-size: 68%;
+  background-repeat: no-repeat;
+  background-position: 115% 130%;
+}
+.hero_image{
+  position: relative;
+  height: calc(550px - 80px)
+}
+.hero_text{
+  width: 50%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero_text h1{
+  font-size: 3.6em;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.btn{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 20px 10px;
 }
