@@ -137,3 +137,44 @@ body{
   font-weight: 400;
   color: grey;
 }
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col_4{
+  width: 33.33%;
+  text-align: center;
+  /* height: calc((1000px - 200px) / 2); */
+  padding: 50px 0;
+  position: relative;
+}
+.col_4 img{
+  width: 36%;
+  margin-bottom: 20px;
+}
+
+.col_text{
+  width: 92%;
+  margin: auto;
+  line-height: 1.5;
+}
+.col_text h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: #7cbb02;
+}
+.col_text p{
+  font-weight: 400;
+  color: grey;
+  font-size: 19px;
+}
+
+hr{
+  width: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
