@@ -32,7 +32,7 @@ body{
   height: 1125px;
 }
 #site_footer{
-  height: 150px;
+  height: 160px;
 }
 /* /struttura */
 
@@ -232,6 +232,9 @@ img.mountain{
 /* /main */
 
 /* footer */
+#site_footer{
+  position: relative;
+}
 .footer::after{
   content: "";
   display: table;
@@ -258,11 +261,19 @@ select{
   margin: 25px;
 }
 
+#help{
+  position: absolute;
+  bottom: 0;
+  right: 222px;
 
-
-
-
-
-
-
+}
+.btn_help{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 10PX;
+  font-size: 12px;
+  margin-top: 10px;
+}
 /* /footer */
