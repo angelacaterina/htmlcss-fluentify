@@ -6,6 +6,9 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  min-width: 1400px;
+  overflow-x: hidden;
 }
 
 /* utility */
@@ -262,7 +265,7 @@ select{
 }
 
 #help{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 222px;
 
@@ -271,7 +274,8 @@ select{
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   padding: 10PX;
   font-size: 12px;
   margin-top: 10px;
