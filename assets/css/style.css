@@ -119,6 +119,7 @@ body{
 
 .btn{
   color: white;
+  display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 6px;
